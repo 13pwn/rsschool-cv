@@ -132,7 +132,7 @@ h2 {
 }
 
 .achiev div {
-    margin-top: 85px;
+    margin-top: 75px;
     margin-right: 300px;
     color: #ecedf3;
 }
@@ -147,4 +147,27 @@ h2 {
     color: #66426b;
 }
 
+.h2code {
+    text-align: right;
+    margin-right: 40px;
+}
 
+.code {
+    min-height: 560px;
+    display: flex;
+    justify-content: end;
+    color: #ecedf3;
+}
+
+pre {
+    background: rgba(9, 10, 14, 0.8);
+    border: 8px solid #66426b;
+    border-radius: 45px;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 75px;
+    height: 400px;
+}
