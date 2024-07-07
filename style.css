@@ -25,7 +25,7 @@ body {
 .gradient {
     position: fixed;
     width: 100%;
-    height: 30%;
+    height: 250px;
 	background: linear-gradient(180deg, #0c0c0e 0%, #0C0C0E 0%, rgba(9, 10, 14, 0) 100%);
 }
 
@@ -84,8 +84,8 @@ header {
 }
 
 .main_info {
-	min-height: 840px;
-    margin-top: 150px;
+	/* min-height: 680px; */
+    margin-top: 100px;
     display: flex;
     justify-content: end;
 }
@@ -153,7 +153,7 @@ h2 {
 }
 
 .code {
-    min-height: 560px;
+    /* min-height: 560px; */
     display: flex;
     justify-content: end;
     color: #ecedf3;
@@ -173,7 +173,7 @@ pre {
 }
 
 .h2contacts {
-    margin-top: 90px;
+    margin-top: 120px;
 }
 
 .contacts {
@@ -221,4 +221,13 @@ pre {
 
 .footer a:first-child {
     padding-right: 40px;
+}
+
+
+#about {
+    padding-bottom: 50px;
+}
+
+#achievement {
+    padding-bottom: 250px;
 }
