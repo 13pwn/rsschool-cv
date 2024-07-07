@@ -53,6 +53,10 @@ header {
 	padding-right: 125px;
 }
 
+.nav_link:first-child {
+    padding-right: 68.5%;
+    font-size: 28px;
+}
 .nav_link:last-child {
  padding-left: 70px;
 }
