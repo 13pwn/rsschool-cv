@@ -171,3 +171,29 @@ pre {
     margin-top: 75px;
     height: 400px;
 }
+
+.h2contacts {
+    margin-top: 90px;
+}
+
+.contacts {
+    min-height: 480px;
+    color: #ecedf3;
+    font-size: 34px;
+}
+
+.contacts ul {
+    margin-top: 75px;
+    list-style-type: none;
+    text-shadow: #af7ca8 1px 0 10px;
+}
+
+.contacts a {
+    color: #ecedf3;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.contacts a:hover {
+    color: #af7ca8;
+} 
