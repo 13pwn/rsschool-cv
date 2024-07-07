@@ -19,7 +19,7 @@ html {
 */
 
 body {
-	background: fixed url(/img/bg/new_file.svg) center center/cover no-repeat;
+	background: fixed url(./img/bg/new_file.svg) center center/cover no-repeat;
 }
 
 .gradient {
