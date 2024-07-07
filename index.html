@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13pwn | CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="icon" href="img/icons/icon.ico">
+</head>
+<body>
+    <div class="gradient"></div>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="nav_list">
+                    <li class="nav_link"><a href="asd">13pwn | CV</a></li>
+                    <li class="nav_link"><a href="#about">About</a></li>
+                    <li class="nav_link"><a href="#achievement">Achievements</a></li>
+                    <li class="nav_link"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>         
+        </header>
+        <main>
+            <div id="about"></div>
+            <section class="main_info">
+                <div class="main_descr">
+                    <h1>Alexey Zinin</h1>
+                    <p class="main_p">
+                        22yo from Russia, learning to be a frontend developer. Just trying to develop myself in different directions until I realize this is what I want to do. I've been working as a game booster, but I think it's time to move on. <br>
+                        I always need something more.
+                    </p>
+                </div>
+                <div class="main_img">
+                    <img class="avatar" src="/img/main_pic.jpg" alt="Avatar">
+                </div>
+            </section>
+            <div id="achievement"></div>
+            <h2>Some of my achievments</h2>
+            <section class="achiev">
+                <div class="skill">
+                    <p>Skills</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS Basics</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <p>Languages</p>
+                    <ul>
+                        <li>Russian (Native)</li>
+                        <li>English (B2)</li>
+                        <li>Spanish (in progress)</li>
+                        <li>Chinese (just started)</li>
+                    </ul>
+                </div>
+            </section>
+            <h2 class="h2code">Code example (Codewars 7 kata)</h2>
+            <section class="code">
+                <pre>
+                    function add(num1, num2) {
+                        num1 = num1.toString().split('').reverse();
+                        num2 = num2.toString().split('').reverse();
+                        let numMax = Math.max(num1.length,num2.length);
+                        let newArr = [];
+                        for (let i = numMax - 1; i >= 0; i--) {
+                          newArr.push(Number(num1[i] || 0) + Number(num2[i] || 0));
+                        }
+                        let result = newArr.reduce((acc, element) => acc.toString() +  element.toString());
+                        return Number(result);
+                    }
+                </pre>
+            </section>
+            <div id="contacts"></div>
+            <h2 class="h2contacts">Contacts</h2>
+            <section class="contacts">
+                <ul>
+                    <li class="email"><a href="mailto:mikeoxmaul6z9@gmail.com">Email</a></li>
+                    <li><a href="https://t.me/stpdjk">Telegram</a></li>
+                    <li>Discord: bromatonta</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <section class="footer">
+                <div class="date">
+                    <p>08.07.2024</p>
+                </div>
+                <div class="footer_links">
+                    <a href="https://github.com/13pwn"><img src="/img/icons/github.png" alt="Github link"></a>
+                    <a href="https://rs.school/courses/javascript-ru"><img src="/img/icons/rs.png" alt="RS School link"></a>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
